@@ -43,4 +43,4 @@ def publish_recipe(recipe_name: str, cli_profile: str):
         raise e
 
 if __name__ == "__main__":
-    add_update_recipe(recipe_name='idres-normalize-data',file_path='runtime/databrew/normalize-data-recipe.json',cli_profile='cleanroom1', force_publish=True)
+    add_update_recipe(recipe_name='idres-normalize-data',file_path='runtime/databrew/normalize-data-recipe.json',cli_profile='default', force_publish=True)
